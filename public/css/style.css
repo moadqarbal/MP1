@@ -1,0 +1,77 @@
+.mytable
+{
+    margin:40px 0;
+}
+
+.uk-navbar-container
+{
+    background: #1F8BF1 !important;
+    color: #ffffff;
+}
+
+.uk-navbar-nav > li > a,
+.uk-navbar-nav > li.uk-active > a
+{
+    color: #ffffff;
+}
+
+.text-white
+{
+    color: #ffffff;
+}
+
+.btn-add
+{
+    background: white !important;
+}
+
+.uk-icon
+{
+    color: white !important;
+}
+
+
+.brand
+{
+    font-size: 22px !important;
+    color: #ffffff !important;
+}
+
+.nav-links
+{
+    color: #ffffff !important;
+}
+
+/* navbar style */
+.dis-none{
+    display: none;
+}
+#navbar_toggle{
+    position: absolute;
+    right: 1em;
+    top: 2em;
+}
+.h-40{
+    height: 40px !important;
+    min-height: 40px;
+}
+
+@media screen and (max-width:768px){
+    .uk-navbar-nav{
+        display:block;
+    }
+    .navbar-collapse{
+        width:100%;
+    }
+    .uk-navbar-nav li{
+        display: block;
+        padding: 10px;
+        height: 40px;
+    }
+    .uk-navbar-nav li a{
+        display: block;
+        width: 80%;
+        padding: 0.5rem 1rem;
+    }
+}
+/* navbar style */
