@@ -9,6 +9,13 @@
 </div>
 
 
+<?php
+//
+//$mavaleur = $_GET['valeur'];
+//echo $mavaleur;
+
+?>
+
 
 
 <div class="uk-container">

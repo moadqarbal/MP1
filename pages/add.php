@@ -11,7 +11,7 @@ if (isset($_POST['btn-save']))
 
     if ($person->create($nom,$prenom,$date_de_naissance,$note1,$note2))
     {
-        echo '<script> window.location.href="index.php?page=home"; </script>';
+        echo '<script> window.location.href="index.php?page=add"; </script>';
     }else
         echo 'failed';
 }
