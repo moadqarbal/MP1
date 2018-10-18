@@ -1,12 +1,12 @@
 <?php
 
-include 'class/Carre.php';
-include 'class/Tri.php';
-include 'class/TriInverse.php';
-include 'class/TriLarge.php';
-include 'class/TriLargeInverse.php';
-include 'class/TriDroit.php';
-include 'class/TriDroitInverse.php';
+//include 'class/Carre.php';
+//include 'class/Tri.php';
+//include 'class/TriInverse.php';
+//include 'class/TriLarge.php';
+//include 'class/TriLargeInverse.php';
+//include 'class/TriDroit.php';
+//include 'class/TriDroitInverse.php';
 
 ?>
 

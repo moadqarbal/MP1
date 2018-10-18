@@ -1,4 +1,11 @@
 <?php
+
+spl_autoload_register(function ($class){
+
+	require 'class/' . $class . '.php';
+
+});
+
 include_once 'include/dbconnection.php';
 
 $pages = scandir('pages');
@@ -9,7 +16,7 @@ if(!empty($page) AND in_array($page . '.php' ,$pages))
 {
     $content = 'pages/' . $page . '.php';
 }
-else header("location:index.php?page=home");
+else header("location:index.php?page=accueil");
 
 
 include_once 'include/Header.php';
