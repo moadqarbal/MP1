@@ -34,6 +34,7 @@
                     <li class="uk-parent"><a href="?page=add">Etudiant</a></li>
                     <li class="uk-parent"><a href="?page=gallery">Gallery</a></li>
                     <li class="uk-parent"><a href="?page=services">Services</a></li>
+					<li class="uk-parent"><a href="?page=carre_affichage">Triangles</a></li>
                 </ul>
             </div>
         </div>

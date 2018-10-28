@@ -2,7 +2,7 @@
     text-white uk-background-secondary">
     <div class="uk-container">
         <div class="uk-text-center">
-            Copyright &copy; FSJES Ain Sebae <?php echo date('Y') ?>
+            Copyright &copy; Mouad  <?php echo date('Y') ?>
         </div>
     </div>
 </footer>

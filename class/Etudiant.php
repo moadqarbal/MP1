@@ -11,9 +11,7 @@ class EtudiantDB
         $this->db = $conn;
     }
 
-
-
-	public function create($nom,$prenom,$date_de_naissance,$note1,$note2)
+    public function create($nom,$prenom,$date_de_naissance,$note1,$note2)
     {
         $stmt = $this->db->prepare("insert into etudiant values 
                                     ('' ,:nom, :prenom, :date_de_naissance, 

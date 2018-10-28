@@ -9,7 +9,7 @@ if (isset($_POST['btn-save']))
     $note1 = $_POST['note1'];
     $note2 = $_POST['note2'];
 
-    if ($person->create($nom,$prenom,$date_de_naissance,$note1,$note2))
+    if ($person->inserer_etudiant($nom,$prenom,$date_de_naissance,$note1,$note2))
     {
         echo '<script> window.location.href="index.php?page=add"; </script>';
     }else
@@ -85,11 +85,22 @@ if (isset($_POST['btn-save']))
                 </div>
 
                 <div class="uk-margin">
-                    <input class="uk-input" type="text" placeholder="La 1er note" name="note1">
+                    <input class="uk-input" type="text" id="note1" placeholder="La 1er note" name="note1">
                 </div>
 				
                 <div class="uk-margin">
-                    <input class="uk-input" type="text" placeholder="La 2eme note" name="note2">
+                    <input class="uk-input" type="text" id="note2" placeholder="La 2eme note" name="note2">
+                </div>
+
+                <a class="uk-margin">
+                    <input class="uk-input" type="text"
+                           placeholder="Moyenne" id="getMoyenne" name="moyenne">
+                </a>
+
+                <div class="uk-margin">
+                    <div class="uk-button uk-button-primary" id="calcMoyenne">
+                        Calculer Moyenne
+                    </div>
                 </div>
 
                
