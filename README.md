@@ -1,6 +1,6 @@
 # Mini Projet 1 (Documentation)
 
-## Author : Mouad
+## Author : Mouad and moad 
 
 # php_oop_pdo_crud
 PHP CRUD with PDO extension 
